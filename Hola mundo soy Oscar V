@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hola Mundo con IA</title>
+</head>
+<body>
+    <h1>Hola Mundo, soy Oscar Valenzuela</h1>
+    <?php
+        // Código para mostrar la imagen generada por IA
+        // Aquí puedes insertar el código necesario para mostrar una imagen generada por inteligencia artificial
+        // Por ejemplo, puedes usar una URL de una imagen generada por IA o generarla dinámicamente con un script PHP
+        // A continuación, se muestra un ejemplo simple de cómo mostrar una imagen local
+    ?>
+    <img src="imagen_generada_por_IA.jpg" alt="Imagen generada por IA">
+</body>
+</html>
