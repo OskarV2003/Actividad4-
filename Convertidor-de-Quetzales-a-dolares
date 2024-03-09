@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+#define CONVERSION_RATE 0.1282 // 1 quetzal = 0.1282 dólares
+
+int main() {
+    int opcion;
+    float cantidad, resultado;
+
+    printf("Bienvenido al conversor de monedas\n");
+    printf("Seleccione la moneda de entrada:\n");
+    printf("1. Quetzales\n");
+    printf("2. Dólares estadounidenses\n");
+    scanf("%d", &opcion);
+
+    if (opcion == 1) {
+        printf("Ingrese la cantidad en quetzales: ");
+        scanf("%f", &cantidad);
+        resultado = cantidad * CONVERSION_RATE;
+        printf("%.2f quetzales equivalen a %.2f dólares estadounidenses\n", cantidad, resultado);
+    } else if (opcion == 2) {
+        printf("Ingrese la cantidad en dólares estadounidenses: ");
+        scanf("%f", &cantidad);
+        resultado = cantidad / CONVERSION_RATE;
+        printf("%.2f dólares estadounidenses equivalen a %.2f quetzales\n", cantidad, resultado);
+    } else {
+        printf("Opción no válida\n");
+    }
+
+    return 0;
+}
